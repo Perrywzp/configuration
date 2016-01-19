@@ -1,0 +1,719 @@
+.unitStatus-box{
+    padding: 14px 38px;
+}
+.freshAir-container {
+    position: absolute;
+    height: 352px;
+    width: 800px;
+    margin: 48px 20px;
+    background: url("./images/freshAir/bg.png") no-repeat;
+    background-color: #11132C;
+}
+.ceiling-bg{
+    background: url("./images/ceiling/bg.png") no-repeat;
+}
+.lowNoise-bg{
+    background: url("./images/lowNoise/bg.png") no-repeat;
+}
+.freshAir-container img {
+    position: absolute;
+}
+
+.freshAir-container span, .freshAir-container p{
+    font-family: "微软雅黑";
+    color: rgb(12,197,217);
+}
+
+.freshAir-container p {
+    height: 22px;
+    margin: 0;
+}
+
+.freshAir-point-masker {
+    position: absolute;
+    z-index: 1;
+    font-size: 12px;
+}
+
+
+.freshAir-setArea {
+    width: 100px;
+    height: 350px;
+    float: right;
+    z-index: 1;
+    margin-top: -32px;
+}
+
+.freshAir-sub-device-label {
+    position: absolute;
+    font-size: 12px;
+}
+
+.freshAir-RAT {
+    width: 110px;
+    height: 20px;
+    position: absolute;
+    left: 425px;
+    top: 1px;
+}
+
+.freshAir-RAH {
+    width: 110px;
+    height: 20px;
+    position: absolute;
+    left: 425px;
+    top: 20px;
+}
+
+.freshAir-RACO2 {
+    width: 148px;
+    height: 20px;
+    position: absolute;
+    left: 544px;
+    top: 47px;
+}
+
+.freshAir-RVF {
+    width: 120px;
+    height: 20px;
+    position: absolute;
+    left: 19px;
+    top: 169px;
+}
+
+.freshAir-BAT {
+    width: 109px;
+    height: 20px;
+    position: absolute;
+    left: 553px;
+    top: 180px;
+}
+
+.freshAir-BAH {
+    width: 109px;
+    height: 20px;
+    position: absolute;
+    left: 553px;
+    top: 200px;
+}
+
+.freshAir-FVF {
+    width: 120px;
+    height: 20px;
+    position: absolute;
+    left: 19px;
+    top: 306px;
+}
+
+.freshAir-point-name {
+    float: left;
+    background-color: #292B42;
+    text-align: center;
+}
+
+.freshAir-RS>div,
+.freshAir-FS>div,
+.freshAir-AU>div,
+.freshAir-DFS>div,
+.freshAir-FCF>div,
+.ceiling-RS>div,
+.ceiling-FS>div,
+.ceiling-AU>div,
+.lowNoise-RS>div,
+.lowNoise-FS>div,
+.lowNoise-AU>div
+{
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    float: left;
+}
+.freshAir-RS>div:first-child,
+.freshAir-FS>div:first-child,
+.freshAir-AU>div:first-child,
+.freshAir-DFS>div:first-child,
+.freshAir-FCF>div:first-child,
+.ceiling-RS>div:first-child,
+.ceiling-FS>div:first-child,
+.ceiling-AU>div:first-child,
+.lowNoise-RS>div:first-child,
+.lowNoise-FS>div:first-child,
+.lowNoise-AU>div:first-child
+{
+    height: 18px;
+    width: 45px;
+    line-height: 18px;
+}
+.freshAir-RS>div:last-child,
+.freshAir-FS>div:last-child,
+.freshAir-AU>div:last-child,
+.freshAir-DFS>div:last-child,
+.ceiling-RS>div:last-child,
+.ceiling-FS>div:last-child,
+.ceiling-AU>div:last-child,
+.lowNoise-RS>div:last-child,
+.lowNoise-FS>div:last-child,
+.lowNoise-AU>div:last-child
+{
+
+    height: 20px;
+    width: 70px;
+    line-height: 20px;
+}
+.freshAir-DFS>div:last-child
+{
+    width: 95px;
+}
+.freshAir-RS {
+    position: absolute;
+    left: 418px;
+    top: 360px;
+    width: 130px;
+    height: 20px;
+}
+.freshAir-FCF>div:first-child
+{
+    height: 18px;
+    width: 70px;
+    line-height: 18px;
+}
+.freshAir-FCF>div:last-child{
+    width: 55px;
+}
+.freshAir-AU .freshAir-AU-value,
+.freshAir-RS .freshAir-RS-value,
+.freshAir-FS .freshAir-FS-value,
+.freshAir-DFS .freshAir-DFS-value,
+.ceiling-AU .ceiling-AU-value,
+.ceiling-FS .ceiling-FS-value,
+.ceiling-RS .ceiling-RS-value,
+.ceiling-DFS .ceiling-DFS-value,
+.lowNoise-RS .lowNoise-RS-value,
+.lowNoise-FS .lowNoise-FS-value,
+.lowNoise-AU .lowNoise-AU-value
+{
+    float: left;
+    color: rgba(196, 196, 194, 0.99);
+    border: 1px solid rgba(196, 196, 194, 0.99);
+}
+
+.freshAir-FS {
+    position: absolute;
+    left: 418px;
+    top: 382px;
+    width: 130px;
+    height: 20px;
+}
+
+
+.freshAir-AU {
+    position: absolute;
+    left: 418px;
+    top: 404px;
+    width: 130px;
+    height: 20px;
+}
+.freshAir-DFS {
+    position: absolute;
+    left: 555px;
+    top: 361px;
+    width: 155px;
+    height: 20px;
+}
+
+.freshAir-FCF {
+    position: absolute;
+    left: 554px;
+    top: 383px;
+    width: 133px;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 11px;
+    background-color: rgba(000,000,000,.3);
+}
+
+.freshAir-setDetail {
+    width: 105px;
+    height: 50px;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+
+.freshAir-setDetail-couple {
+    width: 65px;
+    height: 20px;
+    float: left;
+    margin-left: 10px;
+    border: 1px solid #666;
+    /* text-align: center; */
+}
+
+.freshAir-input {
+    display: inline-block;
+    background: no-repeat;
+    border: none;
+    color: #fff;
+    height: 18px;
+    line-height: 18px;
+    text-align: right;
+    padding-right: 4px;
+    width: 36px;
+    cursor:text;
+}
+
+.freshAir-button {
+    color: #fff;
+    display: inline-block;
+    background: no-repeat;
+    border: 1px #666 solid;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 1px;
+    float: left;
+}
+
+.freshAir-space {
+    letter-spacing: 0.5px;
+    text-align: right;
+}
+
+.freshAir-font-color {
+    color: #666;
+}
+
+
+.freshAir-switch {
+    left: 888px;
+    top: 457px;
+}
+
+.freshAir-switch:hover {
+    cursor: pointer;
+}
+
+.freshAir-Popup {
+    width: 795px;
+    height: 559px;
+    position: absolute;
+    z-index: 1002;
+    top: 0;
+    left: 0;
+}
+
+
+
+
+.freshAir-container span.freshCurrent-date, .freshAir-container span.freshCurrent-pointCode,
+.freshAir-container span.freshCurrent-pointId, .freshAir-container span.freshCurrent-pointValue
+{
+    color: rgb(202, 118, 36);
+}
+
+/*ceiling*/
+.ceiling-container {
+    position: absolute;
+    height: 352px;
+    width: 743px;
+    margin: 48px 20px;
+    background: url("./images/ceiling/bg.png") no-repeat;
+    background-color: #11132C;
+}
+
+.ceiling-container img {
+    position: absolute;
+}
+
+.ceiling-container span, .ceiling-container p {
+    font-family: "微软雅黑";
+    color: rgb(12,197,217);
+}
+
+.ceiling-container p {
+    height: 22px;
+    margin: 0;
+}
+
+.ceiling-point-masker {
+    position: absolute;
+    z-index: 1;
+    font-size: 12px;
+}
+
+
+.ceiling-setArea {
+    width: 100px;
+    margin-top: 90px;
+    margin-right: 43px;
+    height: 200px;
+    float: right;
+    z-index: 1;
+}
+
+.ceiling-sub-device-label {
+    position: absolute;
+    font-size: 12px;
+}
+
+.ceiling-RAT {
+    width: 120px;
+    height: 20px;
+    position: absolute;
+    left: 425px;
+    top: 1px;
+}
+
+.ceiling-RAH {
+    width: 120px;
+    height: 20px;
+    position: absolute;
+    left: 425px;
+    top: 20px;
+}
+
+.ceiling-RACO2 {
+    width: 163px;
+    height: 20px;
+    position: absolute;
+    left: 544px;
+    top: 47px;
+}
+
+.ceiling-RVF {
+    width: 130px;
+    height: 20px;
+    position: absolute;
+    left: 19px;
+    top: 169px;
+}
+
+.ceiling-BAT {
+    width: 120px;
+    height: 20px;
+    position: absolute;
+    left: 475px;
+    top: 116px;
+}
+
+.ceiling-BAH {
+    width: 120px;
+    height: 20px;
+    position: absolute;
+    left: 475px;
+    top: 137px;
+}
+
+.ceiling-FVF {
+    width: 120px;
+    height: 20px;
+    position: absolute;
+    left: 32px;
+    top: 264px;
+}
+
+.ceiling-point-name {
+    float: left;
+    background-color: #292B42;
+    text-align: center;
+}
+
+.ceiling-RS {
+    position: absolute;
+    left: 418px;
+    top: 317px;
+    width: 160px;
+    height: 20px;
+}
+
+
+
+.ceiling-FS {
+    position: absolute;
+    left: 418px;
+    top: 339px;
+    width: 160px;
+    height: 20px;
+}
+
+
+.ceiling-AU {
+    position: absolute;
+    left: 418px;
+    top: 361px;
+    width: 160px;
+    height: 20px;
+}
+
+.ceiling-DFS {
+    position: absolute;
+    left: 506px;
+    top: 357px;
+    width: 116px;
+    height: 20px;
+}
+
+
+
+.ceiling-FCF {
+    position: absolute;
+    left: 506px;
+    top: 377px;
+    width: 120px;
+    height: 20px;
+}
+
+.ceiling-setDetail {
+    width: 100px;
+    height: 50px;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.ceiling-setDetail-couple {
+    width: 65px;
+    height: 20px;
+    float: left;
+    margin-left: 10px;
+    border: 1px solid #666;
+    /* text-align: center; */
+}
+
+.ceiling-input {
+    display: inline-block;
+    background: no-repeat;
+    border: none;
+    color: #fff;
+    height: 18px;
+    text-align: right;
+    padding-right: 4px;
+    width: 36px;
+    cursor:text;
+}
+
+.ceiling-button {
+    color: #fff;
+    display: inline-block;
+    background: no-repeat;
+    border: 1px #666 solid;
+    font-size: 12px;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 1px;
+    float: left;
+}
+
+.ceiling-space {
+    letter-spacing: 0.5px;
+    text-align: right;
+}
+
+.ceiling-font-color {
+    color: #666;
+}
+
+
+.ceiling-switch {
+    left: 888px;
+    top: 457px;
+}
+
+.ceiling-switch:hover {
+    cursor: pointer;
+}
+
+.ceiling-Popup {
+    width: 795px;
+    height: 559px;
+    position: absolute;
+    z-index: 1002;
+    top: 0;
+    left: 0;
+}
+
+
+
+
+.ceiling-container span.freshCurrent-date, .ceiling-container span.freshCurrent-pointCode,
+.ceiling-container span.freshCurrent-pointId, .ceiling-container span.freshCurrent-pointValue
+{
+    color: rgb(202, 118, 36);
+}
+
+/*lowNoise*/
+
+.lowNoise-container {
+    position: absolute;
+    height: 352px;
+    width: 743px;
+    margin: 48px 20px;
+    background: url("./images/lowNoise/bg.png") 39px 1px no-repeat;
+    background-color: #11132C;
+}
+
+.lowNoise-container img {
+    position: absolute;
+}
+
+.lowNoise-container span, .lowNoise-container p {
+    font-family: "微软雅黑";
+    color: rgb(12,197,217);
+}
+
+.lowNoise-container p {
+    height: 22px;
+    margin: 0;
+}
+
+.lowNoise-point-masker {
+    position: absolute;
+    z-index: 1;
+    font-size: 12px;
+}
+
+
+.lowNoise-setArea {
+    width: 100px;
+    margin-top: 107px;
+    margin-right: 73px;
+    height: 305px;
+    float: right;
+    z-index: 1;
+}
+
+.lowNoise-sub-device-label {
+    position: absolute;
+    font-size: 12px;
+}
+
+.lowNoise-point-name {
+    float: left;
+    background-color: #292B42;
+    text-align: center;
+}
+
+.lowNoise-RS {
+    position: absolute;
+    left: 290px;
+    top: 225px;
+    width: 120px;
+    height: 20px;
+}
+
+
+.lowNoise-FS {
+    position: absolute;
+    left: 290px;
+    top: 247px;
+    width: 120px;
+    height: 20px;
+}
+
+.lowNoise-AU {
+    position: absolute;
+    left: 290px;
+    top: 269px;
+    width: 130px;
+    height: 20px;
+}
+
+.lowNoise-setDetail {
+    width: 100px;
+    height: 50px;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+
+.lowNoise-setDetail-couple {
+    width: 65px;
+    height: 20px;
+    float: left;
+    margin-left: 10px;
+    border: 1px solid #666;
+    /* text-align: center; */
+}
+
+
+.lowNoise-space {
+    letter-spacing: 0.5px;
+    text-align: right;
+}
+
+.lowNoise-font-color {
+    color: #666;
+}
+.unitStatus-control{
+    float: right;
+    width: 90px;
+    height: 24px;
+    cursor: pointer;
+}
+.unitStatus-control>b{
+    width: 40px;
+    height: 22px;
+    line-height: 22px;
+    float: left;
+    text-align: center;
+    font-weight: normal;
+    font-size: 12px;
+    border-radius: 5px;
+    color: rgba(209,208,213,.9);
+}
+.unitStatus-control>b:first-child {
+    background-color: rgba(19,31,45,.9);
+    margin-right: 5px;
+    border: 1px solid rgba(36,112,40,.9);
+}
+
+.unitStatus-control>b:last-child {
+    background-color: rgba(29,25,42,.9);
+    border: 1px solid rgba( 113,65,25,.9);
+}
+.lowNoise-container span.freshCurrent-date, .lowNoise-container span.freshCurrent-pointCode,
+.lowNoise-container span.freshCurrent-pointId, .lowNoise-container span.freshCurrent-pointValue
+{
+    color: rgb(202, 118, 36);
+}
+.setArea-bg-top{
+    width:125px;
+    height:18px;
+    background: url("./images/set_area_bg.png") 0 0 no-repeat;
+    margin-left: -13px;
+}
+.setArea-bg-bottom{
+    width:125px;
+    height:18px;
+    background: url("./images/set_area_bg.png") 0 -38px no-repeat;
+    margin-left: -13px;
+}
+
+.unitStatus-box .bad {
+    color: rgba(227, 0, 0, 0.62);
+    border-color: rgba(227, 0, 0, 0.62);
+}
+
+.unitStatus-box .good {
+    color: #29A428;
+    border-color: #29A428;
+}
+.unitStatus-box .hand {
+    border: 1px solid #0AABBD;
+    color: #0AABBD;
+}
+
+.label-bkColor>div {
+    background-color: rgba(000, 000, 000, .3);
+    line-height: 20px;
+    padding-left: 10px;
+}
+
+.label-bkColor>div>label{
+    font-weight:normal;
+}
